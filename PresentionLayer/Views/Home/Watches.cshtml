@@ -1,0 +1,32 @@
+﻿@model DataAccessLayer.ViewModels.IndexViewModel
+
+@{
+    ViewData["Title"] = "Watches Page";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<!-- brand -->
+<div class="brand-bg">
+    <div class="container">
+        <div class="row">
+            @foreach (var watch in Model.smartWatches)
+            {
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
+                    <div class="brand_box">
+                        <img alt="product-item" class="img-fluid" src="data:image/*;Base64,@Convert.ToBase64String(watch.image)">
+                        <h3>$<strong class="red">@watch.price</strong></h3>
+                        <span>@watch.name</span>
+                        <div class="col-md-12">
+                            <a asp-controller="Product" asp-action="Details" asp-route-id="@watch.Id" class="read-more">Buy</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- end brand -->

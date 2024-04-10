@@ -1,0 +1,32 @@
+﻿@model List<DataAccessLayer.Entites.Product>
+
+@{
+    ViewData["Title"] = "Search Result";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<!-- brand -->
+<div class="brand-bg">
+    <div class="container">
+        <div class="row">
+            @foreach (var product in Model)
+            {
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 margin">
+                    <div class="brand_box">
+                            <img alt="product-item" class="img-fluid" src="data:image/*;Base64,@Convert.ToBase64String(product.image)">
+                            <h3>$<strong class="red">@product.price</strong></h3>
+                            <span>@product.name</span>
+                            <div class="col-md-12">
+                                <a asp-controller="Product" asp-action="Details"  asp-route-id="@product.Id" class="read-more">Buy</a>
+                            </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- end brand -->

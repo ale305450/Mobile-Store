@@ -1,0 +1,47 @@
+﻿@model DataAccessLayer.ViewModels.CustomerReviewViewModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <form class="main_form" asp-action="Create">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <label asp-for="email" class="control-label"></label>
+                            <input asp-for="email" class="form-control" />
+                            <span asp-validation-for="email" class="text-danger"></span>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                            <label asp-for="name" class="control-label"></label>
+                            <input asp-for="name" class="form-control" />
+                            <span asp-validation-for="name" class="text-danger"></span>
+                        </div>
+                        <div class=" col-md-12">
+                            <label asp-for="phone" class="control-label"></label>
+                            <input asp-for="phone" class="form-control" />
+                            <span asp-validation-for="phone" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <label asp-for="message" class="control-label"></label>
+                            <input asp-for="message" class="form-control" />
+                            <span asp-validation-for="message" class="text-danger"></span>
+                        </div>
+                        <div class=" col-md-12">
+                            <input type="submit" value="Send" class="btn btn-primary send" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");
+}
+}

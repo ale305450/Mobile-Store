@@ -1,0 +1,15 @@
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\bin\Debug\net6.0\BusinessLogicLayer.deps.json
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\bin\Debug\net6.0\BusinessLogicLayer.dll
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\bin\Debug\net6.0\ref\BusinessLogicLayer.dll
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\bin\Debug\net6.0\BusinessLogicLayer.pdb
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\bin\Debug\net6.0\DataAccessLayer.dll
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\bin\Debug\net6.0\DataAccessLayer.pdb
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.dll
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\ref\BusinessLogicLayer.dll
+C:\Users\Ali\source\repos\PresentionLayer\BusinessLogicLayer\obj\Debug\net6.0\BusinessLogicLayer.pdb
